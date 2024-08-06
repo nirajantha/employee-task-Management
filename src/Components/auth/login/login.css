@@ -1,0 +1,67 @@
+.login-form {
+  /* background-image: url("../../../img/360_F_633220078_GRrtBSiCvvtJhZZWeUB165gBNarCKGXk.jpg") ; */
+  /* background-image: url("../../../img/pngtree-colors-of-colorful-light-on-dark-background-wallpaper-hd-the-best-picture-image_3022379.jpg") ; */
+  background-image: url("../../../img/960x0.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-form form {
+  background: transparent;
+  box-shadow: 1px 8px 35px 1px rgba(66, 68, 90, 1);
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.login-form form label,
+p,
+button {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.login-form form h2 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.login-form form input {
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+.login-form form input:focus {
+  outline: none;
+}
+.login-form form button {
+  border: 1px solid rgb(54, 54, 167);
+  background-color: rgb(54, 54, 167);
+  color: white;
+  border-radius: 8px;
+}
+.login-form form button:hover {
+  border: 1px solid rgb(54, 54, 167);
+  color: white;
+  background-color: transparent;
+}
+.social-media:nth-child(1) {
+  background-color: rgba(44, 100, 197, 0.96);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.social-media:nth-child(2) {
+  background-color: rgb(95, 151, 86);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
